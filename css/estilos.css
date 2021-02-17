@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-family: "Lexend Mega", sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: "Lexend Mega", sans-serif;
+  color: white;
+}
+
+strong {
+  color: #eb5401;
+}
+
+.Header {
+  width: 100%;
+  height: 98.84px;
+  background-color: #017371;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+.Header__logo {
+  width: 270.76px;
+  height: 100%;
+  padding-top: 15px;
+  font-family: "Lexend Mega", sans-serif;
+  color: white;
+  padding-left: 70px;
+}
+.Header__nav {
+  margin-left: 411.04px;
+}
+.Header__nav li {
+  color: white;
+  display: inline;
+  list-style: none;
+  font-family: "Lexend Mega", sans-serif;
+  margin-right: 62.16px;
+}
+.Header button {
+  width: 291.48px;
+  height: 52.36px;
+  background-color: unset;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family: "Lexend Mega", sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+.Intro {
+  width: 100%;
+  height: 383.32px;
+  background-color: #017371;
+  display: flex;
+}
+.Intro__Titulo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+  margin-left: 10px;
+}
+.Intro__image {
+  width: 50%;
+  height: 100%;
+  background-color: #eb5401;
+}

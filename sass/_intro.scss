@@ -1,0 +1,19 @@
+.Intro{
+    width: 100%;
+    height: pixel(13.69);
+    background-color: $color-azul;
+    display: flex;
+    &__Titulo{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        padding-top: 80px;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    &__image{
+        width: 50%;
+        height: 100%;
+        background-color: $color-naranja;
+    }
+}

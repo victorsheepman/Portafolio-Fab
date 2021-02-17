@@ -1,0 +1,36 @@
+.Header{
+    width: 100%;
+    height: pixel(3.53);
+    background-color: $color-azul;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    &__logo{
+        width: pixel(9.67);
+        height: 100%;
+        padding-top: 15px;
+        font-family: $fuente-Lenxed;
+        color: $color-claro;
+        padding-left: pixel(2.50);
+    }
+    &__nav{
+        margin-left: pixel(14.68);
+        li{ color: $color-claro;
+            display: inline;
+            list-style: none;
+            font-family: $fuente-Lenxed;
+            margin-right: pixel(2.22);
+        }
+    }
+    button{
+        width: pixel(10.41);
+        height: pixel(1.87);
+        background-color: unset;
+        border: 1px solid $color-claro;
+        border-radius: 5px;
+        color: $color-claro;
+        font-family: $fuente-Lenxed;
+        cursor: pointer;
+        outline: none;
+    }
+}

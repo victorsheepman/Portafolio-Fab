@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@function pixel($pixel){
+    @return $pixel*28px;
+}
+h4{
+    font-family: $fuente-Lenxed;
+}
+
+h1{
+    font-size: 25px;
+    font-family: $fuente-Lenxed;
+    color: $color-claro;
+
+}
+strong{
+    color: $color-naranja;
+}
